@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SdiAlternative Name="event_on_repeat">
+  <Description />
+  <Parameters>
+    <Parameter>Flow</Parameter>
+    <Parameter>Precip</Parameter>
+    <Parameter>Temp</Parameter>
+    <Parameter>Pool Elev</Parameter>
+  </Parameters>
+  <EventType>OneEvent</EventType>
+  <StartYear>Water</StartYear>
+  <NeedsValidation>false</NeedsValidation>
+  <MaxSimLifecycles>8</MaxSimLifecycles>
+  <MaxSimYearsPerLifecycle>81</MaxSimYearsPerLifecycle>
+  <NumberRealizations>1</NumberRealizations>
+  <NumberYearsPerRealization>640</NumberYearsPerRealization>
+  <NumberYearsPerLifecycle>80</NumberYearsPerLifecycle>
+  <Locations>
+    <Location Name="PATTERSONCK_R10">
+      <Description />
+      <Parameters>
+        <Parameter>
+          Flow
+          <DssFile>sdi/summer_sdi.dss</DssFile>
+          <DssPath>//PATTERSONCK_R10/FLOW//1Hour/C:000001|SUMMER_EVENT/</DssPath>
+        </Parameter>
+      </Parameters>
+    </Location>
+    <Location Name="PATTERSONCF">
+      <Description />
+      <Parameters>
+        <Parameter>
+          Flow
+          <DssFile>sdi/summer_sdi.dss</DssFile>
+          <DssPath>//PATTERSONCF/FLOW-LOCAL//1HOUR/C:000001|SUMMER_EVENT/</DssPath>
+        </Parameter>
+      </Parameters>
+    </Location>
+    <Location Name="SBPOTOMACRV_R10">
+      <Description />
+      <Parameters>
+        <Parameter>
+          Flow
+          <DssFile>sdi/summer_sdi.dss</DssFile>
+          <DssPath>//SBPOTOMACRV_R10/FLOW//1HOUR/C:000001|SUMMER_EVENT/</DssPath>
+        </Parameter>
+      </Parameters>
+    </Location>
+    <Location Name="NBSBPOTOMACCF">
+      <Description />
+      <Parameters>
+        <Parameter>
+          Flow
+          <DssFile>sdi/summer_sdi.dss</DssFile>
+          <DssPath>//NBSBPOTOMACCF/FLOW-LOCAL//1HOUR/C:000001|SUMMER_EVENT/</DssPath>
+        </Parameter>
+      </Parameters>
+    </Location>
+    <Location Name="EVITTSCK_R10">
+      <Description />
+      <Parameters>
+        <Parameter>
+          Flow
+          <DssFile>sdi/summer_sdi.dss</DssFile>
+          <DssPath>//EVITTSCK_R10/FLOW//1HOUR/C:000001|SUMMER_EVENT/</DssPath>
+        </Parameter>
+      </Parameters>
+    </Location>
+    <Location Name="EVITTSCF">
+      <Description />
+      <Parameters>
+        <Parameter>
+          Flow
+          <DssFile>sdi/summer_sdi.dss</DssFile>
+          <DssPath>//EVITTSCF/FLOW-LOCAL//1HOUR/C:000001|SUMMER_EVENT/</DssPath>
+        </Parameter>
+      </Parameters>
+    </Location>
+    <Location Name="WILLSCREEK">
+      <Description />
+      <Parameters>
+        <Parameter>
+          Flow
+          <DssFile>sdi/summer_sdi.dss</DssFile>
+          <DssPath>//WILLSCREEK/FLOW//1HOUR/C:000001|SUMMER_EVENT/</DssPath>
+        </Parameter>
+      </Parameters>
+    </Location>
+    <Location Name="WILLSCF">
+      <Description />
+      <Parameters>
+        <Parameter>
+          Flow
+          <DssFile>sdi/summer_sdi.dss</DssFile>
+          <DssPath>//WILLSCF/FLOW-LOCAL//1HOUR/C:000001|SUMMER_EVENT/</DssPath>
+        </Parameter>
+      </Parameters>
+    </Location>
+    <Location Name="PINTO">
+      <Description />
+      <Parameters>
+        <Parameter>
+          Flow
+          <DssFile>sdi/summer_sdi.dss</DssFile>
+          <DssPath>//PINTO/FLOW-LOCAL//1HOUR/C:000001|SUMMER_EVENT/</DssPath>
+        </Parameter>
+      </Parameters>
+    </Location>
+    <Location Name="NEWCF">
+      <Description />
+      <Parameters>
+        <Parameter>
+          Flow
+          <DssFile>sdi/summer_sdi.dss</DssFile>
+          <DssPath>//NEWCF/FLOW-LOCAL//1HOUR/C:000001|SUMMER_EVENT/</DssPath>
+        </Parameter>
+      </Parameters>
+    </Location>
+    <Location Name="FRANKLIN">
+      <Description />
+      <Parameters>
+        <Parameter>
+          Flow
+          <DssFile>sdi/summer_sdi.dss</DssFile>
+          <DssPath>//FRANKLIN/FLOW//1HOUR/C:000001|SUMMER_EVENT/</DssPath>
+        </Parameter>
+      </Parameters>
+    </Location>
+    <Location Name="LUKE">
+      <Description />
+      <Parameters>
+        <Parameter>
+          Flow
+          <DssFile>sdi/summer_sdi.dss</DssFile>
+          <DssPath>//LUKE/FLOW-LOCAL//1HOUR/C:000001|SUMMER_EVENT/</DssPath>
+        </Parameter>
+      </Parameters>
+    </Location>
+    <Location Name="SAVAGE_IN">
+      <Description />
+      <Parameters>
+        <Parameter>
+          Flow
+          <DssFile>sdi/summer_sdi.dss</DssFile>
+          <DssPath>//SAVAGE_IN/FLOW-LOCAL//1HOUR/C:000001|SUMMER_EVENT/</DssPath>
+        </Parameter>
+      </Parameters>
+    </Location>
+    <Location Name="RANDOLPH_IN">
+      <Description />
+      <Parameters>
+        <Parameter>
+          Flow
+          <DssFile>sdi/summer_sdi.dss</DssFile>
+          <DssPath>//RANDOLPH_IN/FLOW-LOCAL//1HOUR/C:000001|SUMMER_EVENT/</DssPath>
+        </Parameter>
+      </Parameters>
+    </Location>
+    <Location Name="KITZMILLER">
+      <Description />
+      <Parameters>
+        <Parameter>
+          Flow
+          <DssFile>sdi/summer_sdi.dss</DssFile>
+          <DssPath>//KITZMILLER/FLOW-LOCAL//1HOUR/C:000001|SUMMER_EVENT/</DssPath>
+        </Parameter>
+      </Parameters>
+    </Location>
+    <Location Name="ABRAMCF">
+      <Description />
+      <Parameters>
+        <Parameter>
+          Flow
+          <DssFile>sdi/summer_sdi.dss</DssFile>
+          <DssPath>//ABRAMCF/FLOW-LOCAL//1HOUR/C:000001|SUMMER_EVENT/</DssPath>
+        </Parameter>
+      </Parameters>
+    </Location>
+    <Location Name="NBPOTOMACRV_R100">
+      <Description />
+      <Parameters>
+        <Parameter>
+          Flow
+          <DssFile>sdi/summer_sdi.dss</DssFile>
+          <DssPath>//NBPOTOMACRV_R100/FLOW//1HOUR/C:000001|SUMMER_EVENT/</DssPath>
+        </Parameter>
+      </Parameters>
+    </Location>
+    <Location Name="STONYCF">
+      <Description />
+      <Parameters>
+        <Parameter>
+          Flow
+          <DssFile>sdi/summer_sdi.dss</DssFile>
+          <DssPath>//STONYCF/FLOW-LOCAL//1HOUR/C:000001|SUMMER_EVENT/</DssPath>
+        </Parameter>
+      </Parameters>
+    </Location>
+    <Location Name="STORM">
+      <Description />
+      <Parameters>
+        <Parameter>
+          Flow
+          <DssFile>sdi/summer_sdi.dss</DssFile>
+          <DssPath>//STORM/FLOW-LOCAL//1HOUR/C:000001|SUMMER_EVENT/</DssPath>
+        </Parameter>
+      </Parameters>
+    </Location>
+    <Location Name="MOUNTSTORM_IN">
+      <Description />
+      <Parameters>
+        <Parameter>
+          Flow
+          <DssFile>sdi/summer_sdi.dss</DssFile>
+          <DssPath>//MOUNTSTORM_IN/FLOW//1HOUR/C:000001|SUMMER_EVENT/</DssPath>
+        </Parameter>
+      </Parameters>
+    </Location>
+    <Location Name="BARTON">
+      <Description />
+      <Parameters>
+        <Parameter>
+          Flow
+          <DssFile>sdi/summer_sdi.dss</DssFile>
+          <DssPath>//BARTON/FLOW//1HOUR/C:000001|SUMMER_EVENT/</DssPath>
+        </Parameter>
+      </Parameters>
+    </Location>
+    <Location Name="SAVAGE">
+      <Description />
+      <Parameters>
+        <Parameter>
+          Pool Elev
+          <DssFile>sdi/summer_sdi.dss</DssFile>
+          <DssPath>//SAVAGE/ELEV//15MIN/C:000001|SUMMER_EVENT/</DssPath>
+        </Parameter>
+      </Parameters>
+    </Location>
+    <Location Name="RANDOLPH">
+      <Description />
+      <Parameters>
+        <Parameter>
+          Pool Elev
+          <DssFile>sdi/summer_sdi.dss</DssFile>
+          <DssPath>//RANDOLPH/ELEV//15MIN/C:000001|SUMMER_EVENT/</DssPath>
+        </Parameter>
+      </Parameters>
+    </Location>
+    <Location Name="DS SAVAGE">
+      <Description />
+      <Parameters>
+        <Parameter>
+          Flow
+          <DssFile>sdi/summer_sdi.dss</DssFile>
+          <DssPath>//DS SAVAGE/FLOW-REG//15MIN/C:000001|SUMMER_EVENT/</DssPath>
+        </Parameter>
+      </Parameters>
+    </Location>
+    <Location Name="BARNUM">
+      <Description />
+      <Parameters>
+        <Parameter>
+          Flow
+          <DssFile>sdi/summer_sdi.dss</DssFile>
+          <DssPath>//BARNUM/FLOW-REG//15MIN/C:000001|SUMMER_EVENT/</DssPath>
+        </Parameter>
+      </Parameters>
+    </Location>
+  </Locations>
+  <PrimaryLocation>
+    RANDOLPH_IN
+    <PrimaryParam>Flow</PrimaryParam>
+  </PrimaryLocation>
+</SdiAlternative>
+
